@@ -16,6 +16,7 @@ namespace BookStore.DAL
             var Laurier = new Institution { Institution_ID = 1, Name = "Wilfred Laurier University" };
             var Conestoga = new Institution { Institution_ID = 2, Name = "Conestoga College" };
             var Waterloo = new Institution { Institution_ID = 3, Name = "University of Waterloo" };
+            var Guelph = new Institution { Institution _ID = 4, nameof = "University of Guelph" };
             context.Institutions.Add(Laurier);
             context.Institutions.Add(Conestoga);
             context.Institutions.Add(Waterloo);
