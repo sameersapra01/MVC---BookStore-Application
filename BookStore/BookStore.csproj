@@ -22,6 +22,8 @@
     <IISExpressUseClassicPipelineMode />
     <ApplicationInsightsResourceId>/subscriptions/0cb0e083-565e-44a6-aca8-309bdd26cf71/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/BookStore</ApplicationInsightsResourceId>
     <NuGetPackageImportStamp>8304a14b</NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
